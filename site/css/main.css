@@ -1,0 +1,27 @@
+#body {display: none;}
+
+#forward, #back, #reset {width: 1%}
+
+#schedule td, th {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+#schedule tbody td:first-child {
+  font-size: 1.5em;
+}
+
+#schedule tbody td:nth-child(2) p:last-child,
+#schedule tbody td:nth-child(3) p:last-child {
+  margin-bottom: 0;
+}
+
+#schedule thead tr,
+#schedule tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.footer p {
+  text-align: right;
+  font-size: 0.75em;
+}

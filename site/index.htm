@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru_RU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter39416700 = new Ya.Metrika({ id:39416700, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/39416700" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+<div id="body" class="container">
+  <h2>Расписание занятий группы 563/564</h2>
+  <table class="table"><tbody><tr>
+    <td class="week_summary"></td>
+    <td id="back"><a href="?day=-1">назад</a></td>
+    <td id="reset"><a href="?day=0">сегодня</a></td>
+    <td id="forward"><a href="?day=1">вперёд</a></td>
+  </tr></tbody></table>
+  <table id="schedule" class="table">
+    <thead>
+      <tr>
+        <th>Пара</th>
+        <th>Начало</th>
+        <th>Конец</th>
+        <th>Предмет</th>
+        <th>Кабинет</th>
+        <th>Преподаватель</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <div class="footer">
+    <p>На всякий случай: <a target="_blank" href="http://sutkt.ru/documents/rasp/563-564.pdf">оригинал</a> расписания.</p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
